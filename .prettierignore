@@ -1,0 +1,7 @@
+.eslintrc.json
+.prettierrc
+next.config.js
+package.json
+build
+/.next/
+/out/
