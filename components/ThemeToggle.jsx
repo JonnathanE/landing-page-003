@@ -103,7 +103,7 @@ const settings = [
 	},
 ];
 
-const Themetoggle = ({ panelClassName = 'mt-4' }) => {
+export const ThemeToggle = ({ panelClassName = 'mt-4' }) => {
 	const [mounted, setMounted] = useState(false);
 	const { resolvedTheme, theme, setTheme } = useTheme();
 
@@ -209,5 +209,3 @@ export function ThemeSelect() {
 		</div>
 	);
 }
-
-export default Themetoggle;
