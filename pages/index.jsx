@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import FeaturedJobs from '../components/FeaturedJobs';
 import Hero from '../components/Hero';
+import TopCompanies from '../components/TopCompanies';
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<main className='mx-auto max-w-screen-xl px-6 sm:px-8'>
 				<div className='mt-16 space-y-20'>
 					<FeaturedJobs />
+					<TopCompanies />
 				</div>
 			</main>
 		</>
