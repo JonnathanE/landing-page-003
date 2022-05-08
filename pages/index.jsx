@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import FeaturedJobs from '../components/FeaturedJobs';
+import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import TopCompanies from '../components/TopCompanies';
 
@@ -18,6 +19,7 @@ export default function Home() {
 					<TopCompanies />
 				</div>
 			</main>
+			<Footer />
 		</>
 	);
 }
